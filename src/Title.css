@@ -1,0 +1,48 @@
+.Image {
+    background-size: cover;
+    height: 820px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 90px;
+    text-shadow: 1px 1px 1px black;
+    background-color: transparent;
+}
+  
+  
+.Button {
+    background-color: transparent;
+    font-size: 30px;
+    border: 4px white solid;
+    color: #f7f7f7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    margin-bottom: 10px;
+    transition: background-color 0.3s, color 0.3s; 
+}
+  
+.Button:hover,
+.Button:hover .imagelink {
+    background-color: white;
+    color: black;
+}
+  
+.imagelink {
+    text-decoration: none;
+    color: #f7f7f7;
+}
+  
+.imagelink:hover {
+    background-color: white;
+    color: black;
+}
